@@ -6,7 +6,7 @@ export const Container = styled.div`
     border: solid 1px ${theme.colors.black};
     cursor: pointer;
     display: flex;
-    flex-grow: 1px;
+    flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 0;
     font-weight: bold;
