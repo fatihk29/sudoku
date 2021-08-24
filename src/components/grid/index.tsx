@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React, { FC, useEffect } from 'react';
 
 import { createFullGrid } from 'utils';
 import Block from './block';
@@ -6,7 +6,7 @@ import { Container, Row } from './styles';
 
 const Grid: FC = () => {
   const grid = createFullGrid();
-  console.log('11styles', grid);
+  useEffect(() => {}, []);
 
   return (
     <Container data-cy="grid-container">
